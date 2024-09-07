@@ -1,3 +1,7 @@
+pkg update & upgrade
+termux-setup-storage
+pkg install openssl openssh
+
 echo -e "\033[33m[*] ffmpeg packages...\033[0m"
 pkg install ffmpeg
 echo -e "\033[33m[*] Ubuntu packages...\033[0m"
