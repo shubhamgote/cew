@@ -6206,12 +6206,6 @@ function file_code(path) {
 	<label class="mdui-textfield-label">File Name</label>
 	<input class="mdui-textfield-input" type="text" value="${file_name}"/>
 </div>
-// <div class="mdui-textfield">
-// 	<label class="mdui-textfield-label">Download Link</label>
-// 	<input class="mdui-textfield-input" type="text" value="${href}"/>
-// </div>
-// <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
-
 <script src="//cdn.jsdelivr.net/gh/cheems/goindex-extended/js/ace.js"></script>
 <script src="//cdn.jsdelivr.net/gh/cheems/goindex-extended/js/ext-language_tools.js"></script>
 	`;
@@ -6279,12 +6273,6 @@ function file_video(path) {
 	  <label class="mdui-textfield-label">File Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
   </div>
-	// <div class="mdui-textfield">
-	//   <label class="mdui-textfield-label">Download Link</label>
-	//   <input class="mdui-textfield-input" type="text" value="${url}"/>
-	// </div>
-</div>
-// <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 	`;
   $("#content").html(content);
   $("#copy-link").on("click", () => {
@@ -6317,13 +6305,6 @@ function file_audio(path) {
   <div class="mdui-textfield">
 	  <label class="mdui-textfield-label">File Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
-  </div>
-	// <div class="mdui-textfield">
-	//   <label class="mdui-textfield-label">Download Link</label>
-	//   <input class="mdui-textfield-input" type="text" value="${url}"/>
-	// </div>
-</div>
-// <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 	`;
   $("#content").html(content);
 }
@@ -6341,12 +6322,6 @@ function file_pdf(path) {
   <div class="mdui-textfield">
 	  <label class="mdui-textfield-label">File Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${display_name}"/>
- //  </div>
-	// <div class="mdui-textfield">
-	//   <label class="mdui-textfield-label">Download Link</label>
-	//   <input class="mdui-textfield-input" type="text" value="${url}"/>
-	// </div>
-  // <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 	`;
   $("#content")
     .removeClass("mdui-container")
@@ -6410,14 +6385,6 @@ function file_image(path) {
   <div class="mdui-textfield">
 	  <label class="mdui-textfield-label">File Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
- //  </div>
-	// <div class="mdui-textfield">
-	//   <label class="mdui-textfield-label">Download Link</label>
-	//   <input class="mdui-textfield-input" type="text" value="${url}"/>
-	// </div>
-        <br>
-</div>
-// <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
     `;
   $("#content").html(content);
   $("#leftBtn, #rightBtn").click((e) => {
