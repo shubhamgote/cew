@@ -6240,15 +6240,15 @@ function file_video(path) {
   let player_items = [
     {
       text: "MXPlayer(Free)",
-      href: `intent:${url}#Intent;package=com.mxtech.videoplayer.ad;S.title=${path};end`,
+      href: `intent:#Intent;package=com.mxtech.videoplayer.ad;S.title=${path};end`,
     },
     {
       text: "MXPlayer(Pro)",
-      href: `intent:${url}#Intent;package=com.mxtech.videoplayer.pro;S.title=${path};end`,
+      href: `intent:#Intent;package=com.mxtech.videoplayer.pro;S.title=${path};end`,
     },
-    { text: "nPlayer", href: `nplayer-${url}` },
-    { text: "VLC", href: `vlc://${url}` },
-    { text: "PotPlayer", href: `potplayer://${url}` },
+    { text: "nPlayer", href: `nplayer-}` },
+    { text: "VLC", href: `vlc://` },
+    { text: "PotPlayer", href: `potplayer://` },
   ]
     .map(
       (it) =>
@@ -6275,7 +6275,7 @@ function file_video(path) {
 	`;
   $("#content").html(content);
   $("#copy-link").on("click", () => {
-    copyToClipboard(url);
+    copyToClipboard("GUUDI PLAYER");
     mdui.snackbar("Copied to clipboard!");
   });
   const dp = new DPlayer({
